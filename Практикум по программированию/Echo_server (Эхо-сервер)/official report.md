@@ -15,15 +15,16 @@
 
 ![image](https://user-images.githubusercontent.com/90458771/140732187-51b8c044-6f2a-4351-9572-8c7df52e27ab.png)
 
+![image](https://user-images.githubusercontent.com/90458771/140753028-a2cc8f04-de24-4b3d-9a6f-f9461da22670.png)
 
 
 
 5 пункт. Для выполнения этого пункта используем модуль sys
 Также изменяем файл вывода на наш заготовленный файл (server_log.txt).
 
+![image](https://user-images.githubusercontent.com/90458771/140753292-bdaef528-6b0f-4c14-adb6-6cc4aa90dba5.png)
 
-
-
+![image](https://user-images.githubusercontent.com/90458771/140753310-02dd44f4-a2b9-4542-b5e0-bd233b570aa2.png)
 
 ![image](https://user-images.githubusercontent.com/90458771/140732374-cea1fd23-e900-4564-9fbb-b2976bfec45f.png)
 
@@ -31,6 +32,8 @@
 
 
 6 пункт. Ниже представлен модифицированный код:
+
+![image](https://user-images.githubusercontent.com/90458771/140753572-45781875-de8f-42dc-bc25-41033b0447fe.png)
 
 ![image](https://user-images.githubusercontent.com/90458771/140733136-e5fb33f1-348f-4c1f-b5db-238f0e585d40.png)
 
@@ -81,11 +84,11 @@
 
 Ниже представлена функция приема отправки клиента
 
-
+![image](https://user-images.githubusercontent.com/90458771/140753795-2f8392d8-6a4f-4a9f-81a4-d05fa5f9e81a.png)
 
 Функция приема отправки сервера
 
-
+![image](https://user-images.githubusercontent.com/90458771/140753895-fcd10768-09d3-4f49-b3ee-d4cdc21514cd.png)
 
 10 пункт. Дополнили код клиента. Теперь сервер и клиент могут переписываться последовательно.
 
