@@ -85,13 +85,17 @@
 
 Показ логов выключается и включается с помощью команд - stop log start log
 
-![image](https://user-images.githubusercontent.com/90458771/140780731-af98b015-a7c9-48b7-bef2-0c270b99c4cb.png)
+![image](https://user-images.githubusercontent.com/90458771/140781065-279ee563-f341-4402-be57-a8b578d06115.png)
+
+
+Очистка логов выполняется с помощью команды - clear log
+
+![image](https://user-images.githubusercontent.com/90458771/140781155-a2e938ca-e6ae-417f-a6d2-b4d99c3ef3ba.png)
 
 
 Очистка файла идентификации выполняется с помощью команды - clear file
 
 
 ![image](https://user-images.githubusercontent.com/90458771/140780870-35a6f7e7-2eaf-4762-9ab9-c3e75885330e.png)
-
 
 
