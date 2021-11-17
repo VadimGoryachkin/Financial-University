@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="behind">Введено число больше загаданного</string>
+    <string name="ahead">Введено число меньше загаданного</string>
+    <string name="hit">Вы угадали!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="play_more">Сыграть ещё раз</string>
+    <string name="try_to_guess">Попробуйте угадать число (0 &#8211; </string>
+    <string name="error">Некорректный ввод</string>
+    <string name="exit">Выход</string>
+    <string name="attempts">Количество попыток: </string>
+    <string name="the_lightest">Легко</string>
+    <string name="medium">Средне</string>
+    <string name="hard">Тяжело</string>
+</resources>
