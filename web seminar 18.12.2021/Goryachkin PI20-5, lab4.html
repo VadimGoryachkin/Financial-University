@@ -1,0 +1,114 @@
+<meta charset="utf-8">
+
+<script>
+
+// Методы объекта, this. Конструкторы, создание объектов через "new"
+
+// 1 задание
+
+/*
+ 
+    let user = {
+        name: "Джон",
+        age: 30
+    };
+    
+    user.sayHi = function() {
+        alert("Привет!");
+    };
+    
+    user.sayHi(); // Привет!
+
+*/
+
+// 2 задание
+
+/*
+
+    let inform = {
+        firstname: "Vadim",
+        lastname: "Goryachkin",
+        mobilephonenum: "89175220058",
+        email: "vadimgvs465@yandex.com",
+        deliveryadress: "Moscow, Michurinskiy prospect 27"
+    };
+    alert(inform.firstname)
+    alert(inform.email)
+    alert(inform.deliveryadress)
+
+*/
+
+// 3 задание
+
+/*
+
+    let user = {
+        firstname: "Vadim",
+        lastname: "Goryachkin",
+        mobilephonenum: 89175220058,
+        email: "vadimgvs465@yandex.com",
+        deliveryadress: "Moscow, Michurinskiy prospect 27"
+    };
+    
+    let fooddelivery = {
+        name: "SberMarket",
+        type: "Online market company",
+        phone: "84976543210"
+    };
+    
+    let order = {
+        number: "70",
+        typeofpay: "already oplacheno",
+        fromrestaurant: "Burger King",
+        time: "16:12"
+    };
+    
+    order.sayTime = function() {
+        alert ("Время оформления заказа: " + this.time);
+    };
+    
+    if (user.mobilephonenum == 89175220058){
+        order.sayTime();
+    }
+
+*/
+
+// 4 задание
+
+/*
+
+    function User(name) {
+        this.name = name;
+    }
+    alert("My groupmates: ")
+    var group=["Никита", "Кирилл", "Гена", "Вадим", "Юля"]
+    for (var i =0; i<=4; i++){
+        let user = new User (group[i]);
+        alert(user.name)
+    }
+
+*/
+
+// 5 задание
+
+
+
+    function User(name) {
+        this.name = name;
+        this.groupe = "ПИ20-5";
+        this.sayHi = function() {
+            alert( "Меня зовут: " + this.name );
+        };
+        this.sayGroupe = function () {
+            alert("Моя группа: " + this.groupe)
+        };
+    }
+    
+    let vadim = new User("Vadim");
+    
+    vadim.sayHi(); // Меня зовут: Vadim
+    vadim.sayGroupe(); // Моя группа: ПИ20-5
+
+
+
+</script>
