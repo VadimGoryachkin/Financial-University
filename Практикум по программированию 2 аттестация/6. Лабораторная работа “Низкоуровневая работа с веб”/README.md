@@ -18,7 +18,7 @@
 
 Если файл не найден, сервер передает в сокет специальный код ошибки - 404.
 
-![image](https://user-images.githubusercontent.com/90458771/146662195-a007ea08-18cb-403d-ac3b-5770b4419bb3.png)
+![image](https://user-images.githubusercontent.com/90458771/146663484-cc15e4e2-4c51-4aec-a5e4-a94f42b80543.png)
 
 Ошибка 404 означает, что такого файла не существует
 
