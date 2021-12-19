@@ -1,0 +1,11 @@
+Sun, 19 Dec 2021 6:25:13 GMT; 127.0.0.1; /; 200 OK
+
+Sun, 19 Dec 2021 6:25:40 GMT; 127.0.0.1; /hello.html; 404 Not Found
+Sun, 19 Dec 2021 6:26:17 GMT; 127.0.0.1; /smth.wrong.csx; 403 Forbidden
+Sun, 19 Dec 2021 6:27:45 GMT; 127.0.0.1; /test.pdf; 200 OK
+
+Sun, 19 Dec 2021 6:28:02 GMT; 127.0.0.1; /test.jpeg; 200 OK
+
+Sun, 19 Dec 2021 6:30:36 GMT; 127.0.0.1; /test.png; 200 OK
+
+
