@@ -1,4 +1,4 @@
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
 response: 
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizemkdir testfolder1
@@ -17,9 +17,9 @@ request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
 response: 
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizemkdir newtask
 response: successfully
-Прослушиваем порт 4567
-Прослушиваем порт 4567
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizesend_file newtask/test.docx
 Has been received
 response: uploaded successfully
@@ -40,19 +40,20 @@ response: \newtask\
 request: Vadim Krasava=loginLcwt1=password\newtask\=cur_dir0=file_sizecd /
 
 response: \
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: New User=login12345=password\=cur_dir0=file_sizels
 response: 
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: New User=login1234=password\=cur_dir0=file_sizels
 response: Incorrect password
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: Vadim Krasava=loginLcwt1=password\=cur_dir1748417=file_sizesend_file test.jpg
 Has been received
 response: uploaded successfully
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
 response: newtask
-test.jpg
+
+test.jpg
 request: Vadim Krasava=loginLcwt1=password\=cur_dir115204872=file_sizesend_file test.mp3
 response: Not enough disk space!
 request: test=logintest=password\=cur_dir0=file_sizemkdir test1
