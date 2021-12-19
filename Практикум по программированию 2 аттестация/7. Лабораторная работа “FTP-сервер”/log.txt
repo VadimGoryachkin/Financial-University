@@ -1,0 +1,99 @@
+Прослушиваем порт 4567
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
+response: 
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizemkdir testfolder1
+response: successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
+response: testfolder1
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizermtree testfolder1
+response: successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizetouch testfile1
+response: successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizerename testfile1 renamedfile1.txt
+response: successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizeremove renamedfile1.txt
+response: successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
+response: 
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizemkdir newtask
+response: successfully
+Прослушиваем порт 4567
+Прослушиваем порт 4567
+Прослушиваем порт 4567
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizesend_file newtask/test.docx
+Has been received
+response: uploaded successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizeget_file test.docx
+Has been sent
+response: b'Invalid path$FAILED$'
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizecd newtsak
+response: \
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizecd newtask
+response: \newtask\
+request: Vadim Krasava=loginLcwt1=password\newtask\=cur_dir0=file_sizels
+response: test.docx
+request: Vadim Krasava=loginLcwt1=password\newtask\=cur_dir0=file_sizeget_file test.docx
+Has been sent
+response: b'$$STREAM_FILE_END_FLAG$$'
+request: Vadim Krasava=loginLcwt1=password\newtask\=cur_dir0=file_sizecd
+response: \newtask\
+request: Vadim Krasava=loginLcwt1=password\newtask\=cur_dir0=file_sizecd /
+
+response: \
+Прослушиваем порт 4567
+request: New User=login12345=password\=cur_dir0=file_sizels
+response: 
+Прослушиваем порт 4567
+request: New User=login1234=password\=cur_dir0=file_sizels
+response: Incorrect password
+Прослушиваем порт 4567
+request: Vadim Krasava=loginLcwt1=password\=cur_dir1748417=file_sizesend_file test.jpg
+Has been received
+response: uploaded successfully
+request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizels
+response: newtask
+test.jpg
+request: Vadim Krasava=loginLcwt1=password\=cur_dir115204872=file_sizesend_file test.mp3
+response: Not enough disk space!
+request: test=logintest=password\=cur_dir0=file_sizemkdir test1
+response: successfully
+request: test=logintest=password\=cur_dir0=file_sizecd ...../test1
+response: \
+request: test=logintest=password\=cur_dir0=file_sizecd ./test1
+response: \test1\
+request: test=logintest=password\test1\=cur_dir0=file_sizemkdir ../test1/test11
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: test11
+request: test=logintest=password\test1\=cur_dir0=file_sizepwd
+response: \test1\
+request: test=logintest=password\test1\=cur_dir0=file_sizermtree test11
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: 
+request: test=logintest=password\test1\=cur_dir0=file_sizetouch 1.txt
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizerename 1.txt 11.txt
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: 11.txt
+request: test=logintest=password\test1\=cur_dir0=file_sizeremove 1.txt
+response: Invalid path
+request: test=logintest=password\test1\=cur_dir0=file_sizecat 1.txt
+response: Invalid path
+request: test=logintest=password\test1\=cur_dir0=file_sizecat 11.txt
+response: 
+request: test=logintest=password\test1\=cur_dir0=file_sizecd ////
+
+response: \
+request: test=logintest=password\=cur_dir0=file_sizepwd
+response: \
+request: test=logintest=password\=cur_dir0=file_sizecd \
+
+response: \
+request: test=logintest=password\=cur_dir0=file_sizepwd
+response: \
+request: test=logintest=password\=cur_dir0=file_sizermtree test1
+response: successfully
+request: test=logintest=password\=cur_dir0=file_sizels
+response: 
