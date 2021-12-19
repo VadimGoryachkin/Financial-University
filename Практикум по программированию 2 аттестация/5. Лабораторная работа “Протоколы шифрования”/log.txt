@@ -1,13 +1,4 @@
-Прослушиваем порт 6666
-request: yangin=loginyanyan=password\=cur_dir0=file_sizels
-response: 
-request: yangin=loginyanyan=password\=cur_dir0=file_sizemkdir Yan
-response: successfully
-Прослушиваем порт 4567
-request: Vadim Goryachkin=loginLcwt1=password\=cur_dir0=file_sizetouch filetest.txt
-response: successfully
-request: Vadim Goryachkin=loginLcwt1=password\=cur_dir0=file_sizecat > filetest.tst
-Прослушиваем порт 4567
+РџСЂРѕСЃР»СѓС€РёРІР°РµРј РїРѕСЂС‚ 4567
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizetouch filetest.txt
 response: successfully
 request: Vadim Krasava=loginLcwt1=password\=cur_dir0=file_sizerm filetest.txt
