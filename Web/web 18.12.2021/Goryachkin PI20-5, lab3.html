@@ -1,0 +1,101 @@
+<meta charset="utf-8">
+
+<script>
+
+// Java Script. Массивы
+
+// 1 задание
+
+/*
+ 
+    var arr = []
+    var poselem = 0
+    var summaposelem = 0
+	for (let i=0; i<16; i++) {  // формируем массив из 15 элементов
+		arr[i] = Math.round(Math.random()*40)-10 // заполняем массив случайными (Math.random) и целыми (Math.round) числами в интервале [-10;30]
+		if (arr[i]>0){ // отбираем положительные элементы
+			poselem=poselem+1 // считаем количество положительных элементов
+			summaposelem=summaposelem+arr[i] // считаем сумму положительных элементов
+		}
+    }
+    alert(arr)
+    var srarifm = summaposelem / poselem
+    alert("Среднее арифметическое положительных элементов: " + Math.round(srarifm)) // с помощью Math.round я решил округлить среднее арифмитическое до целого числа
+
+*/
+
+// 2 задание
+
+/*
+
+    var arr = []
+	for (let i=0; i<16; i++) {
+		arr[i] = Math.round(Math.random()*40)-10 // решил использовать такой же массив, как в предыдущем задании
+	}
+    alert("Исходный массив: " + arr) // выведем исходный массив, чтобы в будущем сравнить изменения
+    for (let i=0; i<16; i++) {
+		if(arr[i]<0){ // отбираем отрицательные элементы
+			arr[i]=arr[i]*arr[i] // возводим их в квадрат
+		}
+	}
+    alert("Новый массив: " + arr) // выводим новый массив, с квадратами отрицательных элементов
+
+*/
+
+// 3 задание
+
+/*
+
+    var arr = []
+    var poselem = 0
+    var summaposelem = 0
+    var otrelem = 0
+    var summeotrelem = 0
+    var hmzero = 0
+	    for (let i=0; i<16; i++) {  
+		    arr[i] = Math.round(Math.random()*40)-10
+        }
+    alert(arr)
+    for (let i=0; i<16; i++) {
+		if (arr[i]>0){ // отбираем положительные элементы
+			poselem=poselem+1 // считаем количество положительных элементов
+			summaposelem=summaposelem+arr[i] // считаем сумму положительных элементов
+		}
+        if (arr[i]<0){ // отбираем отрицательные элементы
+			otrelem=otrelem+1 // считаем их количество
+			summeotrelem=summeotrelem+arr[i] // считаем их сумму
+		}
+        if (arr[i]==0){ // отбираем нули
+			hmzero=hmzero+1 // считаем их количество
+		}
+    }
+    var srarifmpos = summaposelem / poselem
+    alert("Среднее арифметическое положительных элементов: " + Math.round(srarifmpos)) // с помощью Math.round я решил округлить среднее арифмитическое до целого числа
+    var srarifmotr = summeotrelem / otrelem
+    alert("Среднее арифметическое отрицательных элементов: " + Math.round(srarifmotr))
+    alert("Количество нулей: " + (hmzero))
+
+*/
+
+// 4 задание
+
+
+
+    var arr = []
+    var red = 0
+    var black = 0
+    var white = 0
+        for (let i=0; i<1000001; i++) { // формируем массив на миллион значений
+	        arr[i] = Math.round(Math.random()*3) // заполняем массив случайными и целыми элементами от 0 до 2
+        }
+    alert(arr)
+    for (let i=0; i<1000001; i++) {   
+	    if (arr[i]==0){
+		    red=red+1
+	    }
+    }
+    alert("Количество красных: " + red)  
+
+
+
+</script>
