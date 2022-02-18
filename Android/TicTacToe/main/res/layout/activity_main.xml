@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ход"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/clSections"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clSections"
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnRestart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMove">
+
+        <ImageView
+            android:id="@+id/iv11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintBottom_toTopOf="@+id/iv21"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/krest_foreground" />
+
+        <ImageView
+            android:id="@+id/iv12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv13"
+            app:layout_constraintStart_toEndOf="@+id/iv11"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/iv22" />
+
+        <ImageView
+            android:id="@+id/iv13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/iv23" />
+
+        <ImageView
+            android:id="@+id/iv21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv11"
+            app:layout_constraintBottom_toTopOf="@+id/iv31" />
+
+        <ImageView
+            android:id="@+id/iv22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv23"
+            app:layout_constraintStart_toEndOf="@+id/iv21"
+            app:layout_constraintTop_toBottomOf="@+id/iv12"
+            app:layout_constraintBottom_toTopOf="@+id/iv32" />
+
+        <ImageView
+            android:id="@+id/iv23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv22"
+            app:layout_constraintTop_toBottomOf="@+id/iv13"
+            app:layout_constraintBottom_toTopOf="@+id/iv33" />
+
+        <ImageView
+            android:id="@+id/iv31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv21"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/iv33"
+            app:layout_constraintStart_toEndOf="@+id/iv31"
+            app:layout_constraintTop_toBottomOf="@+id/iv22"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/border_imageview"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv32"
+            app:layout_constraintTop_toBottomOf="@+id/iv23"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Новая игра"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/clSections"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
