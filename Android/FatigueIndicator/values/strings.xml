@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Overwork Test</string>
+    <string name="top">Переутомление (Ортостатическая проба)</string>
+    <string name="rules">Для прохождения теста необходимо иметь возможность лечь на 5 минут.
+    Время проведения теста около 10-15 минут.</string>
+    <string name="test">Тест</string>
+    <string name="enter">День вашего рождения:</string>
+    <string name="sex">Пол:</string>
+    <string name="point1">1. Необходимо лечь и лежать 5 минут почти без движений.</string>
+    <string name="point2">2. Посчитать пульс в течение минуты.</string>
+    <string name="point3">3. Введите пульс в положении лёжа.</string>
+    <string name="point4">4. Встать и стоять почти без движений 5 минут.</string>
+    <string name="point5">5. Посчитать пульс в течение минуты.</string>
+    <string name="point6">6. Введите пульс в положении стоя.</string>
+    <string name="point7">7. Нажмите "Ввод". Тест завершён.</string>
+    <string name="done">ВВОД</string>
+    <string name="result">Результаты теста</string>
+    <string name="notification">Не забывайте о регулярном профессиональном медицинском осмотре.</string>
+    <string name="good">Введенные значения соответствуют отсутствию переутомления.</string>
+    <string name="medium">Введенные значения соответствуют небольшому уровню переутомления. Рекомендуется снижение нагрузки.</string>
+    <string name="bad">Введенные значения соответствуют значительному уровню переутомления. Рекомендуется снижение нагрузки или отпуск.</string>
+    <string name="error">Error - введены плохие значения.</string>
+
+</resources>

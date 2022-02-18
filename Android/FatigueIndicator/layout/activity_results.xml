@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Results">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/tvNotification"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".05"
+        app:layout_constraintHorizontal_bias="0.5"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".90" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+
+        android:text="@string/notification"
+        android:textColor="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/ivBest"
+        app:layout_constraintHeight_default="percent"
+
+        app:layout_constraintHeight_percent=".10"
+        app:layout_constraintHorizontal_bias="0.5"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResult"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent=".95" />
+
+    <ImageView
+        android:id="@+id/ivBest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/pBar"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".10"
+
+        app:layout_constraintLeft_toLeftOf="@+id/tvNotification"
+        app:layout_constraintTop_toBottomOf="@+id/tvNotification"
+        app:srcCompat="@mipmap/best_foreground" />
+
+    <ProgressBar
+        android:id="@+id/pBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:progressDrawable="@drawable/verticalprogressbar"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ivWorse"
+        app:layout_constraintDimensionRatio="h,5:1"
+
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".50"
+        app:layout_constraintLeft_toLeftOf="@+id/ivBest"
+        app:layout_constraintTop_toBottomOf="@+id/ivBest" />
+
+    <ImageView
+        android:id="@+id/ivWorse"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintHeight_default="percent"
+
+        app:layout_constraintHeight_percent=".10"
+        app:layout_constraintLeft_toLeftOf="@+id/pBar"
+        app:layout_constraintTop_toBottomOf="@+id/pBar"
+        app:srcCompat="@mipmap/unhealthy_foreground" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/pBar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/pBar"
+        app:layout_constraintTop_toTopOf="@+id/pBar">
+
+        <ImageView
+            android:id="@+id/ivIndicator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvIndicator"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".50"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvIndicator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:textColor="@color/red"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent=".50"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivIndicator"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
