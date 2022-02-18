@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5B3A339-8B9D-146B-FB4A-B5695B01DCF6" name="Комментарий">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:20:32 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Оценка" id="4D2D2426-95D6-020C-75B9-B09725849F71">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:20:32 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Комментарий клиента" id="A62563E3-1F4C-05C6-67E6-2E2A0F7CDA11">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:30:48 UTC</createdTime>
+<generatorID>4ACECA57-5541-ABCB-DA39-7346CC1C6D41</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>32D11861-0BEF-1282-D75C-F652452CF889</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="1827F8EB-D438-87E7-AEFB-B7F16DA776E9">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 05:03:50 UTC</createdTime>
+<generatorID>09539D24-6883-257F-1AA5-183427881345</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>E45E34D5-8ED4-7B9E-B8DB-547CCDDBE96F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EBE69F4-9333-6DE0-63D9-97257B2DBC83" name="Запчасть">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:34 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Идентификатор" id="C6D8F1AC-0990-5474-AED3-194C740DF315">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:34 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Область применения" id="47DA237B-8919-4485-FC15-8B9FD2193C28">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:45:34 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Список запасных частей" id="17D3AC39-4D30-4E53-B139-9E0602A71A01">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:42:12 UTC</createdTime>
+<generatorID>696047A2-4B6D-B81A-63F6-542AA5D7850C</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>104031A7-E5CD-998F-219E-5528BE078864</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C785AA1-696B-2362-2535-82D95FA2DE6C" name="Запчасть PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:45:45 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6D8F1AC-0990-5474-AED3-194C740DF315</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

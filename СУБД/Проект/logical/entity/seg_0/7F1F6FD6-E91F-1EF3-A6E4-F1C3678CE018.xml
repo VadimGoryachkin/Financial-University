@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F1F6FD6-E91F-1EF3-A6E4-F1C3678CE018" name="Служба прав потребителей">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:52:11 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Комментарий клиента" id="32D11861-0BEF-1282-D75C-F652452CF889">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:52:11 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Административные документы" id="38881230-F063-BD9E-53FD-D46FB902A519">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:52:11 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Предполагаемая дата визита" id="DB71BBE5-4B2B-971A-C3C4-9BDD77F0327A">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:52:11 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="882714F7-A9DB-7C38-3921-E5109DFDC765" name="Служба прав потребителей PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:14:37 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32D11861-0BEF-1282-D75C-F652452CF889</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

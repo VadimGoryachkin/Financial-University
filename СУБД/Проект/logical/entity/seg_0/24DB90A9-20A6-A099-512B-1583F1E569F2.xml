@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24DB90A9-20A6-A099-512B-1583F1E569F2" name="Сотрудник">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:57:02 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Уникальный код" id="1311F85F-0644-C298-7F25-8F585C68A224">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:57:02 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Электронная почта" id="44633873-A1B3-8EFA-47BE-DD037C17BFFB">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:57:02 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Мобильный телефон" id="4BBCB82E-35A3-2499-7FE0-A2D6BFFE81B9">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:57:02 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="График" id="F74F7ACF-1C8C-5C4D-924B-7E24DA13DB08">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:44:41 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Уникальный код1" id="43079A72-CAA1-114E-E74D-FF3BA7B41722">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:15:23 UTC</createdTime>
+<generatorID>EC1DF439-942D-00A2-C0E1-BB5E04BF87C6</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1311F85F-0644-C298-7F25-8F585C68A224</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Трудовая книжка" id="5CBFEAA4-0A57-4C33-3D8F-949DE52DCA5C">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:21:37 UTC</createdTime>
+<generatorID>EC7429B8-9C44-12BA-AF12-BBDA36F081A2</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>5F1DBD90-5A59-DF2F-466E-DEFDB252109E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Страховой полис" id="C1028BD3-305C-2EF1-F1F7-7C792F9E45BC">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:21:37 UTC</createdTime>
+<generatorID>EC7429B8-9C44-12BA-AF12-BBDA36F081A2</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>936685ED-B316-8BAB-AC4B-B7A988F02F9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Список работ" id="54EC87AA-C033-98E9-C03A-6274E7E60950">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:40:39 UTC</createdTime>
+<generatorID>0410B973-8CDC-A3D3-222D-6622AE73726F</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>8DDE6931-4642-5F98-7331-F549981983C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Идентификатор" id="DE625A78-C288-EEED-55AE-527DDC58071F">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:57:46 UTC</createdTime>
+<generatorID>D951EC81-21F3-6C4E-2A12-84A79C234D6E</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>A554BCC9-A6FB-4112-E4B0-47065C2709E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Обязанности" id="C18C20FF-1056-17AE-C9AC-71D414088E89">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 05:04:48 UTC</createdTime>
+<generatorID>DC1140AA-484A-4743-646A-F07A0016A80F</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>B2CC16D4-3668-318B-4A17-515BF9075057</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55C5BEE4-BFAF-1700-5765-2116E22C7F05" name="Сотрудник PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:28:19 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1311F85F-0644-C298-7F25-8F585C68A224</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

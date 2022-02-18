@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="532FEB8C-142A-7C22-31F8-1C2F9BBF8A9C" name="Совещание">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:58:40 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Отчёт" id="037C0B6B-DFC0-265D-8E1B-6B4B7E894FA0">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:58:40 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Стратегия" id="1FF5D1F3-966A-F92B-0675-9057E46610C9">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:58:40 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Уникальный код" id="228260AD-61A7-7855-05EA-0416030D763D">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:53:36 UTC</createdTime>
+<generatorID>DF0FEB46-BEAE-E7D6-FDEB-B756780770D8</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>1311F85F-0644-C298-7F25-8F585C68A224</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F6D5B74-2BB5-7FDE-DE8C-685582352CDA" name="Совещание PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:33:49 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>037C0B6B-DFC0-265D-8E1B-6B4B7E894FA0</attributeRef>
+<attributeRef>1FF5D1F3-966A-F92B-0675-9057E46610C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

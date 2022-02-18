@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F0F06AD-99D7-8D7F-7B58-2E226A3F23AE" name="Услуга">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 13:19:29 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Тип" id="2656A844-1799-76A3-E66C-A336CBBC03A9">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:16:56 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Сложность" id="41BF1241-55F6-B01F-68EC-9FDE9CECBCBC">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:15:48 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цена" id="5080E8B8-8BBB-25CF-E4FB-A728AEB429BD">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:54:53 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Примерное время выполнения" id="171B7C4F-0BFD-9F41-9F8F-777705720C63">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 14:42:51 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="ACFBE239-6A5F-0EB9-B68C-B786B60BFD35">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:50:26 UTC</createdTime>
+<generatorID>3C3F14A8-786F-6684-8D82-E3A4B700E149</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>E45E34D5-8ED4-7B9E-B8DB-547CCDDBE96F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер заказа" id="389FC6CE-B639-5063-8EA7-2E5F410C2C74">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:52:12 UTC</createdTime>
+<generatorID>48B65518-5D17-E325-6424-5C1E9A4EAA44</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>51015F25-1FFE-BCE3-DBA2-5B1A5BE1AF0C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D50AC927-F5CF-6653-6C7B-6931F0E0A7A2" name="Услуга PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:30:37 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2656A844-1799-76A3-E66C-A336CBBC03A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

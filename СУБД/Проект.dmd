@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Проект" id="68D13277-8F40-114B-6BD6-99730F57F428" version="3.5">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-17 12:52:37 UTC</createdTime>
+<ownerDesignName>Домашняя работа №4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>68D13277-8F40-114B-6BD6-99730F57F428</designId>
+</OSDM_Design>

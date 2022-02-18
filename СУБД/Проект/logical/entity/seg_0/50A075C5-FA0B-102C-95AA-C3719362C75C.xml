@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50A075C5-FA0B-102C-95AA-C3719362C75C" name="Заказ">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:33 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Номер заказа" id="51015F25-1FFE-BCE3-DBA2-5B1A5BE1AF0C">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:33:02 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата" id="1949EB9E-87E1-0AE6-BF0C-9BF8ECDE745C">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:33:03 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Время" id="CC71EF13-F5E6-19D2-3B63-361E55FF8651">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:33:53 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Тип" id="A602887B-B809-6567-3BA1-01F419AF787A">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:52:09 UTC</createdTime>
+<generatorID>48B65518-5D17-E325-6424-5C1E9A4EAA44</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>2656A844-1799-76A3-E66C-A336CBBC03A9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70FE0D0D-3637-2B03-35FC-9BCDFC7776E9" name="Заказ PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:33:21 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51015F25-1FFE-BCE3-DBA2-5B1A5BE1AF0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

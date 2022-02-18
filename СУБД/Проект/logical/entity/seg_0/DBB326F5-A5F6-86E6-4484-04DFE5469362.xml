@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBB326F5-A5F6-86E6-4484-04DFE5469362" name="Карта лояльности">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:23:21 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Уровень клиента" id="BDB343FD-92C1-3046-0AB6-8212F736FD81">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:23:21 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона клиента" id="7D88824D-5971-7A7B-56D8-B2895E8F4B16">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:23:21 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер телефона" id="B7EFA7FB-C68F-2206-A42D-EF9E2AF440AE">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:32:12 UTC</createdTime>
+<generatorID>441F59DB-4E8D-DA7F-A95C-F137C6951DB9</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>E45E34D5-8ED4-7B9E-B8DB-547CCDDBE96F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CCDCD10-F724-8B49-1312-28C960834F38" name="Карта лояльности PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 02:25:26 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDB343FD-92C1-3046-0AB6-8212F736FD81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

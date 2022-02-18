@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="759380C4-8BE1-C38D-5E9A-D80638989922" name="Склад">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:42 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Список запасных частей" id="104031A7-E5CD-998F-219E-5528BE078864">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:42 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Количество единиц товара" id="DCB75650-B5B7-90A9-137F-F59B4465D6F3">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:27:42 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Сведения о поставщике" id="B3BC4AA8-98A7-0C8E-213B-328C0353E543">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 01:43:47 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Уникальный код" id="3C7A2A17-6471-4436-E325-25658B86A700">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 04:59:51 UTC</createdTime>
+<generatorID>DE8652A1-EAA8-F219-B0C7-294AC7EE29EF</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>BC9754FA-F87A-5C3A-D5C1-F4FD9A97188A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Идентификатор накладного листа" id="EF5B0319-6C26-56EB-E373-F36B788C9177">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 05:02:57 UTC</createdTime>
+<generatorID>FFA94CAF-74CE-6DB9-3A7A-5D671990F5E8</generatorID>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<referedAttribute>F7499D0E-5646-3A9F-F285-583BC078E9CE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1ACC1CAC-A6C2-9D11-DBEB-E895B07A44CA" name="Склад PK">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-09-22 21:46:46 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>104031A7-E5CD-998F-219E-5528BE078864</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

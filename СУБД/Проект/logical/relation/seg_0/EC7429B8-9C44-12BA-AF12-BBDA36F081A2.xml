@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="EC7429B8-9C44-12BA-AF12-BBDA36F081A2">
+<createdBy>Vadim</createdBy>
+<createdTime>2021-11-15 03:21:35 UTC</createdTime>
+<ownerDesignName>Проект</ownerDesignName>
+<engineerTo>
+<item key="1A4002AD-0AD2-1E65-AD99-A86BD92AFD6C" value="true"/>
+</engineerTo>
+<sourcePk>55C5BEE4-BFAF-1700-5765-2116E22C7F05</sourcePk>
+<targetPk>9A7E1E0E-F875-8D7D-ECE0-EF23A52029A6</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>24DB90A9-20A6-A099-512B-1583F1E569F2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EF07CEE5-7529-B108-6DAA-759FF6B9F752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
