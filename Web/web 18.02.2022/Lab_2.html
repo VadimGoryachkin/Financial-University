@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Second Lab work</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="text_container"></div>
+    <div id="img_container"></div>
+
+    <select>
+        <option selected value="Name">Выберите имя игрока</option>
+        <option value="player1">LeBron James</option>
+        <option value="player2">Kobe Bryant</option>
+    </select>
+    <div class="like_button_container" data-commentid="1"></div>
+    <div class="like_button_container" data-commentid="2"></div>
+    <div class="like_button_container" data-commentid="3"></div>
+    <script type="text/babel">
+
+        ReactDOM.render(
+            <div>
+                <h2>
+                    Кого нарисовать на обложке новой nba 2k23?
+                </h2>
+            </div>,
+            document.querySelector("#text_container")
+        );
+        ReactDOM.render(
+            <div>
+                <img src="Lab_2.jpg" width="600px" />
+            </div>,
+            document.querySelector("#img_container")
+        );
+
+    </script>
+
+    <script src="like_button.js"></script>
+</body>
+
+</html>
