@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/act1"
+        android:title="First Screen">
+    </item>
+    <item
+        android:id="@+id/act2"
+        android:title="Second Screen">
+    </item>
+    <item
+        android:id="@+id/act3"
+        android:title="Third Screen">
+    </item>
+    <item
+        android:id="@+id/act4"
+        android:title="Fourth Screen">
+    </item>
+
+
+</menu>
